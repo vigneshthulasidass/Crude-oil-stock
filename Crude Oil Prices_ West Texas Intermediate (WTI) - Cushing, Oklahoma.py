@@ -14,7 +14,7 @@ import quandl
 
 
 # Setting our API key
-quandl.ApiConfig.api_key = ""
+quandl.ApiConfig.api_key = "your api key goes here"
 
 # Importing our data
 data = quandl.get("FRED/DCOILWTICO", start_date="2000-01-01", end_date="2020-01-01")
